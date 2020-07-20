@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.my_gallery_study"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="false"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.my_gallery_study.class_material"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.my_gallery_study.editdeleteActivity"
+            android:theme="@style/popupTheme" />
+        <activity
+            android:name="com.example.my_gallery_study.CameraView"
+            android:theme="@style/popupTheme" />
+        <activity
+            android:name="com.example.my_gallery_study.FullPictureView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.my_gallery_study.ClassList"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.example.my_gallery_study.popupActivity"
+            android:theme="@style/popupTheme" />
+        <activity
+            android:name="com.example.my_gallery_study.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.my_gallery_study"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+    </application>
+
+</manifest>

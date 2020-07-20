@@ -1,0 +1,122 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.my_gallery_study"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:6:5-65
+12-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:8:5-60
+14-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:8:19-57
+15    <uses-feature android:name="android.hardware.camera.autofocus" />
+15-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:9:5-70
+15-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:9:19-67
+16    <uses-feature android:name="android.hardware.location.gps" />
+16-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:10:19-63
+17
+18    <application
+18-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:12:5-56:19
+19        android:allowBackup="false"
+19-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:13:9-36
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.1.0] C:\Users\mong\.gradle\caches\transforms-2\files-2.1\03736cf4bc3669a69d502627b70a527e\core-1.1.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:15:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:17:9-35
+26        android:theme="@style/AppTheme" >
+26-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:18:9-40
+27        <activity
+27-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:19:9-20:68
+28            android:name="com.example.my_gallery_study.class_material"
+28-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:19:19-49
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:20:13-56
+30        <activity
+30-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:21:9-23:49
+31            android:name="com.example.my_gallery_study.editdeleteActivity"
+31-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:22:13-47
+32            android:theme="@style/popupTheme" />
+32-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:23:13-46
+33        <activity
+33-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:24:9-26:49
+34            android:name="com.example.my_gallery_study.CameraView"
+34-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:25:13-39
+35            android:theme="@style/popupTheme" />
+35-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:26:13-46
+36        <activity
+36-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:27:9-29:59
+37            android:name="com.example.my_gallery_study.FullPictureView"
+37-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:28:13-44
+38            android:theme="@style/AppTheme.NoActionBar" />
+38-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:29:13-56
+39        <activity
+39-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:30:9-32:59
+40            android:name="com.example.my_gallery_study.ClassList"
+40-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:31:13-38
+41            android:theme="@android:style/Theme.Dialog" />
+41-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:32:13-56
+42        <activity
+42-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:33:9-35:49
+43            android:name="com.example.my_gallery_study.popupActivity"
+43-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:34:13-42
+44            android:theme="@style/popupTheme" />
+44-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:35:13-46
+45        <activity
+45-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:36:9-45:20
+46            android:name="com.example.my_gallery_study.MainActivity"
+46-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:37:13-41
+47            android:label="@string/app_name"
+47-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:38:13-45
+48            android:theme="@style/AppTheme.NoActionBar" >
+48-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:39:13-56
+49            <intent-filter>
+49-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:40:13-44:29
+50                <action android:name="android.intent.action.MAIN" />
+50-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.LAUNCHER" />
+52-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:43:17-77
+52-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:43:27-74
+53            </intent-filter>
+54        </activity>
+55
+56        <provider
+56-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:47:9-55:20
+57            android:name="androidx.core.content.FileProvider"
+57-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:48:13-62
+58            android:authorities="com.example.my_gallery_study"
+58-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:49:13-63
+59            android:exported="false"
+59-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:50:13-37
+60            android:grantUriPermissions="true" >
+60-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:51:13-47
+61            <meta-data
+61-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:52:13-54:53
+62                android:name="android.support.FILE_PROVIDER_PATHS"
+62-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:53:17-67
+63                android:resource="@xml/file_path" />
+63-->C:\Users\mong\AndroidStudioProjects\My_Gallery_Study\app\src\main\AndroidManifest.xml:54:17-50
+64        </provider>
+65    </application>
+66
+67</manifest>
